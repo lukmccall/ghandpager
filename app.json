@@ -21,7 +21,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.lukaszkosmaty.GestureHandlerRepro"
     },
     "web": {
       "favicon": "./assets/favicon.png"

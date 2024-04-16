@@ -4,15 +4,19 @@
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
     "expo": "~50.0.14",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
-    "react-native": "0.73.6"
+    "react-native": "0.73.6",
+    "react-native-gesture-handler": "^2.16.0",
+    "react-native-pager-view": "^6.3.0",
+    "react-native-reanimated": "^3.8.1",
+    "use-latest-callback": "^0.1.9"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
